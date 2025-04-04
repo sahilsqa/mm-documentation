@@ -294,6 +294,10 @@ client.createProject({
 4. **Versioning**: Use API versioning
 5. **Security**: Follow security best practices
 
+## Contact for API Support
+
+If you have any questions or need help implementing our API, please contact our API support team at [support@meramonitor.com](mailto:support@meramonitor.com).
+
 ## Support
 
 ### Resources

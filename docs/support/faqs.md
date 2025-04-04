@@ -70,7 +70,7 @@ Your data is stored in secure data centers in the US and EU, depending on your l
 Yes, we offer integrations with popular tools like Slack, Gmail, Trello, and more.
 
 ### Is there an API available?
-Yes, we provide a comprehensive API for developers. Check our [API documentation](../tutorial-extras/api) for details.
+Yes, we provide a comprehensive API for developers. Check our [API documentation](/docs/technical/api-reference) for details.
 
 ### Can I customize the interface?
 Yes, you can adjust layouts, themes, and shortcuts via Settings > Appearance.

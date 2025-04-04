@@ -15,17 +15,19 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://meramonitor.com',
+  url: 'https://sahilxportsoft.github.io', // This will be your GitHub Pages URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/mm-documentation/', // Your repository name with trailing slash
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'meramonitor', // Usually your GitHub org/user name.
-  projectName: 'meramonitor-docs', // Usually your repo name.
+  organizationName: 'sahilxportsoft', // Your GitHub username
+  projectName: 'mm-documentation', // Repository name
+  deploymentBranch: 'gh-pages', // Branch for GitHub Pages
+  trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
