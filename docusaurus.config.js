@@ -15,14 +15,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://sahilsharma.github.io', // Update with your GitHub username
+  url: 'https://sahilsqa.github.io', // Updated with correct GitHub username
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/mm-documentation/', // Your repository name with trailing slash
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'sahilsharma', // Update with your GitHub username
+  organizationName: 'sahilsqa', // Updated with correct GitHub username
   projectName: 'mm-documentation', // Repository name
   deploymentBranch: 'gh-pages', // Branch for GitHub Pages
   trailingSlash: false,
@@ -48,7 +48,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/sahilsharma/mm-documentation/tree/main/',
+            'https://github.com/sahilsqa/mm-documentation/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -59,7 +59,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/sahilsharma/mm-documentation/tree/main/',
+            'https://github.com/sahilsqa/mm-documentation/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -135,7 +135,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/sahilsharma/mm-documentation',
+                href: 'https://github.com/sahilsqa/mm-documentation',
               },
             ],
           },
