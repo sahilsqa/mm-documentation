@@ -1,0 +1,153 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Layout for text next to a right-aligned image using CSS Grid */
+.grid-container-text-left-image-right {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  grid-gap: 25px;
+  align-items: start;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive layout for smaller screens */
+@media screen and (max-width: 768px) {
+  .grid-container-text-left-image-right {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .grid-text-content {
+    grid-row: 2;
+  }
+
+  .grid-image-wrapper {
+    grid-row: 1;
+    grid-column: 1;
+    margin-bottom: 15px;
+  }
+}
+
+.grid-text-content {
+  /* Ensure text flows naturally */
+  grid-column: 1 / 2;
+}
+
+.grid-image-wrapper {
+  grid-column: 2 / 3;
+  text-align: center; /* Center image within its column */
+}
+
+/* Enhanced image styling */
+.grid-image-wrapper img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.grid-image-wrapper img:hover {
+  transform: scale(1.02);
+}
+
+/* Enhanced caption style */
+.img-caption {
+  display: block;
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 12px;
+  color: var(--ifm-color-content-secondary);
+  padding: 8px;
+  border-radius: 4px;
+  background: var(--ifm-background-color);
+}
+
+/* REMOVED: Ensure headings and admonitions clear floats above them */
+/* 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.admonition {
+  clear: both;
+}
+*/
+
+/* Enhanced tab styling */
+.tabs-container {
+  margin: 2rem 0;
+}
+
+[data-theme='light'] .tabs {
+  background: var(--ifm-background-surface-color);
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme='dark'] .tabs {
+  background: var(--ifm-background-surface-color);
+  border-radius: 8px 8px 0 0;
+}
+
+/* Admonition enhancements */
+.admonition {
+  border-width: 0;
+  border-left-width: 6px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin: 1.5rem 0;
+}
+
+/* Section headers enhancement */
+h2 {
+  border-bottom: 2px solid var(--ifm-color-primary);
+  padding-bottom: 0.5rem;
+  margin-top: 2.5rem;
+}
+
+/* List styling enhancement */
+.grid-text-content ul {
+  padding-left: 1.2rem;
+}
+
+.grid-text-content ul li {
+  margin: 0.5rem 0;
+  position: relative;
+}
